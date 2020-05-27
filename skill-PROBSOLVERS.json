@@ -1,0 +1,1202 @@
+{
+  "intents": [
+    {
+      "intent": "600066",
+      "examples": [],
+      "description": "600066"
+    },
+    {
+      "intent": "bipolar_disorder",
+      "examples": [
+        {
+          "text": "apprehension"
+        },
+        {
+          "text": "manic episode"
+        },
+        {
+          "text": "depression"
+        },
+        {
+          "text": "unwanted thoughts"
+        },
+        {
+          "text": "general discontent"
+        },
+        {
+          "text": "euphoria"
+        },
+        {
+          "text": "sadness"
+        },
+        {
+          "text": "hyperactivity"
+        },
+        {
+          "text": "excess desire for sex"
+        },
+        {
+          "text": "anxiety"
+        },
+        {
+          "text": "mood swings"
+        },
+        {
+          "text": "elevated mood"
+        },
+        {
+          "text": "anger"
+        },
+        {
+          "text": "apathy"
+        },
+        {
+          "text": "guilt"
+        },
+        {
+          "text": "paranoia"
+        },
+        {
+          "text": "agitated depression"
+        }
+      ],
+      "description": "bipolar disorder"
+    },
+    {
+      "intent": "bronchitis",
+      "examples": [
+        {
+          "text": "Cough: can be chronic, dry, or with phlegm"
+        },
+        {
+          "text": "Whole body: fatigue or malaise Nasal: runny nose or post-nasal drip Also common: chest pressure, headache, shortness of breath, sleeping difficulty, or sore throat"
+        }
+      ],
+      "description": "disease"
+    },
+    {
+      "intent": "Chicken_pox",
+      "examples": [
+        {
+          "text": "ulcers or red spots"
+        },
+        {
+          "text": "back pain"
+        },
+        {
+          "text": "need a physician"
+        },
+        {
+          "text": "Skin blister"
+        },
+        {
+          "text": "skin scrab"
+        }
+      ],
+      "description": "chicken pocks"
+    },
+    {
+      "intent": "Arthritis",
+      "examples": [
+        {
+          "text": "Hand: bump on the finger or bony outgrowth in fingers or toes"
+        },
+        {
+          "text": "Pain areas: in the joints, ankle, back, fingers, hands, muscles, neck, or wrist Pain types: can be intermittent or sharp Pain circumstances: can occur while sitting"
+        },
+        {
+          "text": "appendicitis"
+        },
+        {
+          "text": "Also common: flare, physical deformity, redness, or stiff neck"
+        },
+        {
+          "text": "Muscular: decreased range of motion, difficulty walking, or muscle weakness"
+        },
+        {
+          "text": "Joints: stiffness, tenderness, or swelling"
+        },
+        {
+          "text": "Whole body: fatigue or malaise"
+        }
+      ],
+      "description": "foot"
+    },
+    {
+      "intent": "Appendicitis",
+      "examples": [
+        {
+          "text": "Whole body: chills, fever, loss of appetite, or malaise"
+        },
+        {
+          "text": "Pain areas: in the abdomen, mid-abdomen, or right lower abdomen"
+        },
+        {
+          "text": "Pain types: can be dull, sharp, mild, or severe"
+        },
+        {
+          "text": "Gastrointestinal: diarrhoea, nausea, or vomiting"
+        },
+        {
+          "text": "abdominal pain migration"
+        }
+      ],
+      "description": "disease"
+    },
+    {
+      "intent": "Asthma",
+      "examples": [
+        {
+          "text": "Also common: chest pressure, flare, anxiety, early awakening, fast heart rate, or throat irritation"
+        },
+        {
+          "text": "Cough: can occur at night, during exercise, can be chronic, dry, with phlegm, mild, or severe"
+        },
+        {
+          "text": "Respiratory: difficulty breathing, wheezing, breathing through the mouth, fast breathing, frequent respiratory infections, rapid breathing, or shortness of breath at night"
+        }
+      ],
+      "description": "respiratory disease"
+    },
+    {
+      "intent": "corona_virus",
+      "examples": [
+        {
+          "text": "fever dry cough tiredness Less common symptoms: aches and pains sore throat diarrhoea conjunctivitis headache loss of taste or smell a rash on skin, or discolouration of fingers or toes Serious symptoms: difficulty breathing or shortness of breath chest pain or pressure loss of speech or movement"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Common_cold",
+      "examples": [
+        {
+          "text": "sinus pressure"
+        },
+        {
+          "text": "chest pressure"
+        },
+        {
+          "text": "itchiness"
+        },
+        {
+          "text": "chills"
+        },
+        {
+          "text": "fatigue"
+        },
+        {
+          "text": "body ache"
+        },
+        {
+          "text": "pain in the muscles"
+        },
+        {
+          "text": "Cough with phlegm"
+        },
+        {
+          "text": "throat irritation"
+        },
+        {
+          "text": "swollen lymph nodes"
+        },
+        {
+          "text": "redness in eyes"
+        }
+      ],
+      "description": "general cold"
+    },
+    {
+      "intent": "600095",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "requirement_of_doctor",
+      "examples": [
+        {
+          "text": "send a doctor"
+        },
+        {
+          "text": "help me with a doctor"
+        },
+        {
+          "text": "need a doctor"
+        },
+        {
+          "text": "consult a doctor"
+        },
+        {
+          "text": "i need a doctor"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "600066",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "600010",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "600024",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "600066",
+          "synonyms": [
+            "600066"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "600053",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "symptoms",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "stomach ache",
+          "synonyms": [
+            "stomach pain ",
+            "abdominal pain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "head ache",
+          "synonyms": [
+            "head pain"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "detection",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "check my disease",
+          "synonyms": [
+            "detect the disease",
+            "detect the problem",
+            "find the disease",
+            "find the problem",
+            "tell me the problem",
+            "what problem do i have"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "request",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "medicine",
+          "synonyms": [
+            "therapy",
+            "medication",
+            "drug",
+            "medicament",
+            "prescription"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "medical emergency",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "doctor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cardiologist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Andrologist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anaesthesiologist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Allergist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Epidemiologist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Endocrinologist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dermatologist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cardiac Electrophysiologist",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "requirement_of_doctor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "i require a doctor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "meet a doctor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "consult a doctor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "find a doctor nearby",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "visit a doctor",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "600095",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "600086",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "600073",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "600095",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "600096",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "600059",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Female",
+          "synonyms": [
+            "women",
+            "lady"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Male",
+          "synonyms": [
+            "boy",
+            "man",
+            "masculine",
+            "manly",
+            "macho"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "NAME",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "logeswaran",
+          "synonyms": [
+            "loge"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bhuvaneshwari nagarajan",
+          "synonyms": [
+            "bhuvna"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "babu",
+          "synonyms": [
+            "babu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "leena nesamani",
+          "synonyms": [
+            "leena mam"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rekha",
+          "synonyms": [
+            "rekha manoj"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "prabha",
+          "synonyms": [
+            "prabhakaran"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "physiotherapist",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pain relieving",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "physiotherapy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "massage",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "therapy",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "age",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "30",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "31",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "32",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "37",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "44",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "56",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "33",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "34",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "38",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "39",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "40",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "41",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "42",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "45",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "46",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "47",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "48",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "49",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "50",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "51",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "52",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "53",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "54",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "55",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "57",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "58",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "59",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "60",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "61",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "62",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "63",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "64",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "65",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "66",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "67",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "68",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "69",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "70",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "23",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "20",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "19",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "18",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "17",
+          "synonyms": [
+            " seventeen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "16",
+          "synonyms": [
+            "sixteen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "29",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "22",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "15",
+          "synonyms": [
+            "fifteen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "14",
+          "synonyms": [
+            "fourteen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "13",
+          "synonyms": [
+            "thirteen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "12",
+          "synonyms": [
+            "twelve"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "11",
+          "synonyms": [
+            "eleven"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "10",
+          "synonyms": [
+            "ten"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nine",
+          "synonyms": [
+            "9"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "eight",
+          "synonyms": [
+            "8"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7",
+          "synonyms": [
+            "seven"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "6",
+          "synonyms": [
+            "six"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": [
+            "five"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": [
+            "four"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": [
+            "three",
+            "theen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": [
+            "two",
+            "dho"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": [
+            "one",
+            "eek"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "21",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "24",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "25",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "26",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "27",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "28",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The doctor preferred is : dr.sabarishwaran-9080064400-ambattur chennai-600095"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1590591845338",
+      "disabled": true,
+      "conditions": "@600095",
+      "dialog_node": "response_3_1590601954573",
+      "previous_sibling": "response_1_1590601884933"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The doctor preferred is : dr.barath kumar-9080064400-ambattur chennai-600053"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1590591845338",
+      "disabled": true,
+      "conditions": "@600066",
+      "dialog_node": "response_1_1590601884933"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "would you wish to predict?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1590593433436",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1590593433648",
+      "previous_sibling": "handler_3_1590593433648"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1590593433436",
+      "context": {
+        "loge": "#requirement_of_doctor"
+      },
+      "conditions": "#requirement_of_doctor",
+      "event_name": "input",
+      "dialog_node": "handler_3_1590593433648"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1590589627928",
+      "variable": "$loge",
+      "dialog_node": "slot_2_1590593433436"
+    },
+    {
+      "type": "standard",
+      "title": "NAME",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "what is your gender?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1590588925920"
+      },
+      "conditions": "@NAME",
+      "dialog_node": "node_4_1590561955671",
+      "previous_sibling": "node_10_1590590103299"
+    },
+    {
+      "type": "standard",
+      "title": "gender",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "what is your age?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1590589627928"
+      },
+      "conditions": "@gender",
+      "dialog_node": "node_5_1590588925920",
+      "previous_sibling": "node_4_1590561955671"
+    },
+    {
+      "type": "standard",
+      "title": "requirement",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "what is your name?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1590561955671"
+      },
+      "conditions": "@request",
+      "dialog_node": "node_10_1590590103299",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "title": "age ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "please specify the symptoms\nOnce obtained the results please give  the pincode"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1590591845338"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_5_1590589627928",
+      "previous_sibling": "node_5_1590588925920"
+    },
+    {
+      "type": "standard",
+      "title": "symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The doctor preferred is : dr.barath kumar-9080064400-ambattur chennai-600053"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@600066",
+      "dialog_node": "node_8_1590591845338",
+      "previous_sibling": "node_5_1590589627928"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1590590103299"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": false
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "PROBSOLVERS",
+  "language": "en",
+  "description": ""
+}
